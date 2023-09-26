@@ -1,0 +1,92 @@
+body{
+	background-color:#313866;	
+	background-image:url('../image/gam2.jpe');
+	background-position:right-bottom;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0.5cm 0.5cm 0.5cm 0.5cm; /*yakin dulu*/
+	text-align:justify;
+}
+legend, fieldset{
+	border:5px outset #F0DE36;
+	border-radius:20px;
+	color:#435334;
+	background-color:#CEDEBD;
+	padding:10px;
+	background-image: linear-gradient(to right, #78C1F3, #9BE8D8, #E2F6CA, #F8FDCF);
+}
+#biodata{
+	list-style-type:disc;
+}
+ table, td, th {  
+  border:2px solid black;
+  text-align:center;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+td{
+	background-color: #33BBC5;
+	color: black;
+	padding: 15px;
+}
+th{
+	background-color: #504099;
+	color: white;
+	padding: 15px;
+}
+h3{
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	word-spacing:4px;
+	font-family:times new roman;
+	color:#black;
+	text-shadow: 2px 2px 5px gold;
+	text-align:center;
+}
+.puyeng{
+	color:white;
+}
+
+/*----------pseudo element---------*/
+.p3:first-letter{
+	text-indent;0;
+	font-size:30pt;
+	color:maroon;
+	float:top-justify;
+}
+/*----------pengaplikasian css advance-------------*/
+@font-face {
+  font-family: myArialNarrow;
+  src: url('arial_narrow_7.ttf');
+}
+
+*{ /* universal untuk seluruh selector */
+  font-family: myArialNarrow;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
